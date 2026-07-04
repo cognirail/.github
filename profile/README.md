@@ -25,6 +25,7 @@ Guardrails, lint presets, context systems, and runtime tools for building AI-ass
 | Package | Purpose |
 | --- | --- |
 | [`@cognirail/eslint-config`](https://github.com/cognirail/eslint-config) | Opinionated ESLint flat config and Prettier preset for TypeScript and agent projects |
+| [`from-skills-to-abilities`](https://github.com/cognirail/from-skills-to-abilities) | An engineering note on packaging judgment for AI agents. This is not a standard. It is a working model from building an AI workbench: at some point, writing bigger skills stops making agents more reliable. What we need is a way to package judgment.|
 
 ## Principles
 
