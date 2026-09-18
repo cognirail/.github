@@ -35,8 +35,8 @@ software teams that need stable, inspectable behavior.
 | --- | --- |
 | [`from-skills-to-abilities`](https://github.com/cognirail/from-skills-to-abilities) | A working model for packaging expert judgment as loadable, routed, validated, and degradable agent abilities. |
 | [`@cognirail/eslint-config`](https://github.com/cognirail/eslint-config) | Opinionated ESLint flat config and Prettier preset for TypeScript and agent-shaped codebases. |
-| [`cognirail-python-lint-config`](https://github.com/cognirail/python-lint-config) | Opinionated ruff + ty baseline for Python — AI coding guardrails with no inline escape hatches. |
-| [`cognirail-bash-lint-config`](https://github.com/cognirail/bash-lint-config) | Opinionated shellcheck + shfmt baseline for Bash — the shell sister of the TypeScript and Python presets. |
+| [`python-lint-config`](https://github.com/cognirail/python-lint-config) | Opinionated ruff + ty baseline for Python — AI coding guardrails with no inline escape hatches. |
+| [`bash-lint-config`](https://github.com/cognirail/bash-lint-config) | Opinionated shellcheck + shfmt baseline for Bash — the shell sister of the TypeScript and Python presets. |
 | [`swift-lint-config`](https://github.com/cognirail/swift-lint-config) | SwiftLint + SwiftFormat guardrails for AI-generated Swift code. |
 
 ## Core Model
@@ -70,8 +70,8 @@ Exceptions live in reviewed project config — never as `# noqa`, `# shellcheck 
 | Language | Package | Engine |
 | --- | --- | --- |
 | TypeScript | [`@cognirail/eslint-config`](https://github.com/cognirail/eslint-config) | ESLint flat config + Prettier |
-| Python | [`cognirail-python-lint-config`](https://github.com/cognirail/python-lint-config) | ruff + ty |
-| Bash | [`cognirail-bash-lint-config`](https://github.com/cognirail/bash-lint-config) | shellcheck + shfmt |
+| Python | [`python-lint-config`](https://github.com/cognirail/python-lint-config) | ruff + ty |
+| Bash | [`bash-lint-config`](https://github.com/cognirail/bash-lint-config) | shellcheck + shfmt |
 | Swift | [`swift-lint-config`](https://github.com/cognirail/swift-lint-config) | SwiftLint + SwiftFormat |
 
 ## Agent Project Shape
@@ -134,6 +134,6 @@ uv run cognirail-bash-lint-config check
 
 - Read the essay: [`From Skills to Abilities`](https://github.com/cognirail/from-skills-to-abilities)
 - Try the TypeScript lint preset: [`@cognirail/eslint-config`](https://github.com/cognirail/eslint-config)
-- Try the Python lint preset: [`cognirail-python-lint-config`](https://github.com/cognirail/python-lint-config)
-- Try the Bash lint preset: [`cognirail-bash-lint-config`](https://github.com/cognirail/bash-lint-config)
+- Try the Python lint preset: [`python-lint-config`](https://github.com/cognirail/python-lint-config)
+- Try the Bash lint preset: [`bash-lint-config`](https://github.com/cognirail/bash-lint-config)
 - Follow the package scope: [`@cognirail` on npm](https://www.npmjs.com/org/cognirail)
